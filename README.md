@@ -1,4 +1,4 @@
-# Reddit
+# Reddit [![Build Status](https://travis-ci.org/stampylongr/reddit.svg?branch=master)](https://travis-ci.org/stampylongr/reddit)
 
 Welcome! Reddit is a social platform for all. After Reddit closed their open-source project, I have now reopened it in the name of all that is open-source.
 
