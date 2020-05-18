@@ -1,5 +1,5 @@
 # Install wget
-sudo apt install wget
+sudo apt install wget -y
 
 # Get custom packages
 wget https://launchpad.net/~reddit/+archive/ubuntu/ppa/+files/cassandra_1.0.7-0ubuntu3_all.deb -O cass.deb
@@ -13,7 +13,8 @@ sudo apt install -y \
     postgresql memcached rabbitmq-server haproxy \
     python-setuptools python-dev libmemcached-dev \
     libpq-dev libxml2-dev libxslt1-dev python-pil \
-    git-core gcc optipng jpegoptim postgresql-client make gettext
+    git-core gcc optipng jpegoptim postgresql-client \
+    make gettext python-pip python
 
 # Install missing packages
 sudo apt -f install -y
